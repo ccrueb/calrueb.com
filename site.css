@@ -2,11 +2,12 @@
   background-color: white;
   max-width: 600px;
   margin: 0 auto;
-  line-height: 1.2em;
+  line-height: 1.6em;
   font-size: 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Spectral", serif;
 }
 
 body {
   background-color: darkseagreen;
+  min-width: 280px;
 }
