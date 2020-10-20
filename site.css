@@ -1,13 +1,27 @@
 .content {
-  background-color: white;
-  max-width: 600px;
-  margin: 0 auto;
+  background-color: #4c566a;
   line-height: 1.6em;
   font-size: 1rem;
-  font-family: "Spectral", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #d8dee9;
+  padding: 1em;
+  border-radius: 1em;
+  flex: 1;
+  min-width: 400px;
+  margin: 2em 1em;
 }
 
 body {
-  background-color: darkseagreen;
+  background-color: #2e3440;
   min-width: 280px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
